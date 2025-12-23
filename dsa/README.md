@@ -18,3 +18,23 @@
 | Binary Search | 0 | 30 |
 | Heap | 0 | 20 |
 | **Total** | **0** | **400** |
+
+# Create solution template
+cat > dsa/template.md << 'EOF'
+# Problem Name
+
+**LeetCode #:** XXX
+**Difficulty:** Easy/Medium/Hard
+**Pattern:** Array/HashMap/Two Pointers/etc.
+**Date:** YYYY-MM-DD
+
+## Problem Link
+[LeetCode](https://leetcode.com/problems/xxx)
+
+## Approach
+[Explain your approach in 2-3 sentences]
+
+## Solution
+
+```python
+# Your solution here
