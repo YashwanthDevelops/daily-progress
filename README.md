@@ -6,24 +6,15 @@
 
 | Metric | Count |
 |--------|-------|
-| Days | 0/420 |
-| LeetCode Solved | 0/450 |
-| Current Streak | 0 days |
+| Days | 4/420 |
+| LeetCode Solved | 12/450 |
+| Current Streak | 4 days |
 
 ## Structure
 ├── dsa/ # LeetCode solutions organized by pattern
 ├── til/ # Today I Learned notes
 └── notes/ # Detailed learning notes
 
-
-## Progress Log
-
-### Month 1: Python + DSA Foundation
-
-- [ ] Week 1: Python Core + Setup
-- [ ] Week 2: Python Intermediate + DSA Start
-- [ ] Week 3: Python Advanced + Arrays/Strings
-- [ ] Week 4: First Project + Hashing
 
 ## Connect
 
