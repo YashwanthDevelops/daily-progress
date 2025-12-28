@@ -1,0 +1,37 @@
+# Day 5/420 — JSON, CSV, and Inheritance Mini Project
+
+**Date:** 2025-12-27  
+**Topics:** JSON handling, CSV handling, OOP project  
+**Mood:** 4/10 (improving from 2/10)  
+**LeetCode:** 0 (focusing on fundamentals)
+
+---
+
+## JSON File Handling
+
+### The Confusing Part First
+
+| Function | What It Does |
+|----------|--------------|
+| `json.load()` | Read from FILE → Python object |
+| `json.loads()` | Read from STRING → Python object |
+| `json.dump()` | Write Python object → FILE |
+| `json.dumps()` | Write Python object → STRING |
+
+**Memory trick:** The 's' stands for 'string'.
+
+### Reading JSON
+
+```python
+import json
+
+# From file
+with open("data.json", "r") as file:
+    data = json.load(file)
+
+# From string
+json_string = '{"name": "Yash", "age": 20}'
+data = json.loads(json_string)
+
+print(data["name"])  # Yash
+print(type(data))    # <class 'dict'>
